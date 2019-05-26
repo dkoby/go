@@ -89,9 +89,6 @@ func main() {
     }
     outputWriter.Flush()
 }
-//
-//
-//
 func usage() {
     log.Println("Usage: " + path.Base(os.Args[0]) + " [INPUT] [OUTPUT] [PACKAGE_NAME] <NAME>")
     log.Println("    INPUT        Input file name. \"-\" for standard input.")
